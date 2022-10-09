@@ -15,6 +15,9 @@ body {
 .blue {
   color: #2196f3;
 }
+.black {
+  color: #212121;
+}
 .navigation {
   list-style: none;
   font-family: "Roboto";
@@ -23,7 +26,6 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: #212121;
 }
 .phone {
   color: #757575;
@@ -47,6 +49,17 @@ a {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border: black solid 0;
+  color: #ffffff;
 }
 .lorem h3 {
   font-family: "Roboto";
@@ -111,6 +124,7 @@ a {
   color: #ffffff;
 }
 .address {
+  list-style: none;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -119,4 +133,6 @@ a {
   letter-spacing: 0.03em;
   color: #ffffff;
 }
-.contact{color: rgba(255, 255, 255, 0.6);}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+}
